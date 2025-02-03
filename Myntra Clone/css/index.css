@@ -209,7 +209,10 @@ header{
 }
 .copyright1 {
     color: #94969f;
-    padding: 0 120px;
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    margin: 15px 0; 
 }
 .copy{
     width: 100%;
@@ -218,18 +221,19 @@ header{
     justify-content: space-evenly;
 }
 .text{
-    
+    display: flex;
+    flex-direction: column;
     font-weight: 700;
-    font-size: 12px;
-    margin: 12px 70px;
-    padding: 0 50px;
-
+    font-size: 14px;
+    /* margin: 12px 70px;
+    padding: 0 50px; */
+    width: 980px;
 }
 .text::after {
     content: "";
     
     display: inline-block;
-    width: 1150px; /* Adjust length */
+    width: 950px; /* Adjust length */
     height: 0.5px;  /* Adjust thickness */
     background-color: #94969f; /* Adjust color */
     margin-left: 8px; /* Space between text and line */
